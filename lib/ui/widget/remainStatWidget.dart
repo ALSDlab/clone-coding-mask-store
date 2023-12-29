@@ -15,7 +15,7 @@ class RemainStatWidget extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(store.addr!),
-          Text('${store.km}'),
+          Text('${store.km} km'),
         ],
       ),
       trailing: _buildRemainStatWidget(store),
